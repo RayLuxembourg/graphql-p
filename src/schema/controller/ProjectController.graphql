@@ -1,0 +1,9 @@
+type Query {
+  projects: [Project]
+  project(id: Int): Project
+}
+
+type Mutation {
+  projectSave(id: Int, title: String, description: String, imageUrl: String): Project
+  projectDelete(id: Int): Boolean
+}

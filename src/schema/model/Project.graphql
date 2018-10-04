@@ -1,0 +1,6 @@
+type Project {
+  id: Int
+  title: String
+  description: String
+  imageUrl: String
+}

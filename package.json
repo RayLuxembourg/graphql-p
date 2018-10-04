@@ -1,0 +1,19 @@
+{
+  "name": "ts-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/ws": "^6.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.16.2",
+    "sqlite3": "^4.0.2",
+    "type-graphql": "^0.14.0",
+    "typeorm": "^0.2.7",
+    "vesper": "^0.1.9"
+  }
+}
